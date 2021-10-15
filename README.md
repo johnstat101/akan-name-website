@@ -1,9 +1,9 @@
-PORTFORLIO WEBSITE
+AKAN-NAME-WEBSITE
 By John Kimani
 
 ## Description
 
-My-Calculator is a website with a custom made calculator using javascript technology
+akan-name-website is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name
 
 *website screenshot*
 [portfolio.jpg {https://i.postimg.cc/k5MmtCbh/portfolio.png}](https://postimg.cc/sML8ttKp)
@@ -16,7 +16,7 @@ My-Calculator is a website with a custom made calculator using javascript techno
 
 ##### Setup Instructions and Installation
 
-- clone this repository to your deskop. https://github.com/johnstat101/my-calculator.git
+- clone this repository to your deskop. https://github.com/johnstat101/akan-name-website.git
 - Navigate to index.html and,
 - open in your browser
 
