@@ -1,3 +1,9 @@
 .akanName{
     float: left;
 }
+#reset{
+    float: right;
+}
+#clear{
+    float: right;
+}
