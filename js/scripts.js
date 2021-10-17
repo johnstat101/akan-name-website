@@ -12,7 +12,6 @@ function akanName() {
     
     const element = document.getElementById("output");
     element.appendChild(addElement);
-    // console.log(akanNames[dayOfWeek]);
 }
 
 // A function to return Akan Names array based on user gender

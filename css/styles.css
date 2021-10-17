@@ -7,3 +7,15 @@
 #clear{
     float: right;
 }
+#lblname{
+    margin-right: 10px;
+}
+#lblBirthDay{
+    margin-right: 10px;
+}
+#gender{
+    float: right;
+}
+#birthDay{
+    margin-right: 15px;
+}
