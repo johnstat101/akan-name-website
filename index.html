@@ -15,10 +15,11 @@
             <div class="col-md-6">
                 <h1>AKAN NAMES</h1>
                 <label for="">Enter your Name</label>
-                <input type="text" id="userName">
+                <input type="text" id="userName" placeholder="firstName lastName">
+                <button onclick="document.getElementById('userName').value = ''">clear</button>
                 <hr>
                 <label for="BirthDay">Enter your BirthDay</label>
-                <input type="date" id="birthDay" value="">
+                <input type="date" id="birthDay">
                 <label for="">Gender</label>
                 <select name="gender" id="gender">
                     <option value="male">male</option>
@@ -29,7 +30,7 @@
                 <p></p>
                 <p id="output"></p>
                 <br>
-                <button>clear</button>
+                <button onclick="document.getElementById('userName').value = ''">reset</button>
                 <hr>
             </div>
             <div class="col-md-3"></div>
