@@ -2,10 +2,18 @@ body{
     background-color: darkgrey;
 }
 
+.about{
+    text-align: justify;
+    background-color: blanchedalmond;
+    font-style: italic;
+    padding: 5px;
+    border-top: 1px solid black;
+}
+
 #col{
     background-color: white;
     padding: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
     border: solid;
 }
 

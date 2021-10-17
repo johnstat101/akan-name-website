@@ -11,28 +11,37 @@
     <script src="js/scripts.js"></script>
     <div class="container">
         <div class="row">
+
             <div class="col-md-3"></div>
             <div class="col-md-6" id="col">
                 <h1>AKAN Name Calc.</h1>
+                <p class="about"><b>About:</b> akan-name-website is a web application that takes a user's
+                    birthday and calculates the day of the week they were born
+                    and then depending on their gender outputs their Akan Name
+                </p>
                 <hr>
                 <label id="lblname">Enter your Name</label>
                 <input type="text" id="userName" placeholder="  firstName   lastName">
                 <button id="clear" onclick="document.getElementById('userName').value = ''">clear</button>
                 <hr>
+
                 <label id="lblBirthDay">Enter your BirthDay</label>
-                <input type="date" id="birthDay" value="2021-01-01" style="width:140px;">
+                <input type="date" id="birthDay" value="2021-10-01" style="width:140px;">
+
                 <label id="lblGender">Gender</label>
                 <select name="gender" id="gender">
                     <option value="male">male</option>
                     <option value="female">female</option>
                 </select>
                 <hr>
+
                 <button onclick="akanName()">Display AKAN Name</button>
                 <button id="reset" onclick="window.location.reload();">reset</button>
                 <p></p>
                 <p id="output"></p>
                 <hr>
-        </div>
+
+            </div>
             <div class="col-md-3"></div>
         </div>
     </div>

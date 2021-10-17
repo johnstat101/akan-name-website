@@ -8,8 +8,8 @@ function akanName() {
     let userName = document.getElementById("userName").value;
     // create html element to append your output
     let addElement = document.createElement("p");
-    let node = document.createTextNode("Hello "+userName+" you were born on Day "+
-    dayOfWeek+" of the week, and your AKAN Name is: "+akanNames[dayOfWeek]);
+    let node = document.createTextNode("Hello ["+userName+"] you were born on Day ["+
+    dayOfWeek+"] of the week, and your AKAN Name is: ["+akanNames[dayOfWeek]+"]");
     addElement.appendChild(node);
     
     // append to your output to our created html element id = "output"
@@ -42,7 +42,7 @@ function calDayOfWeek() {
     let day = parseInt(birthDay.slice(5, 7));
     let month = parseInt(birthDay.slice(8, 10));
     // apply formula to obtain day of the week based on user input birthday
-    let dayOfWeek = (((yearCentury / 4) - 2 * yearCentury - 1) + ((5 * year / 4)) + ((26 * (month + 1) / 10)) + day) % 7;
+    let dayOfWeek = (((yearCentury/4)-2*yearCentury-1)+((5*year/4))+((26*(month+1)/10))+day)%7;
     // return an integer value
-    return dayOfWeek | 0;
+    return dayOfWeek.toFixed();
 }
