@@ -5,6 +5,8 @@ body{
 #col{
     background-color: white;
     padding: 10px;
+    margin-top: 20px;
+    border: solid;
 }
 
 h1{
@@ -23,15 +25,19 @@ h1{
 #reset{
     float: right;
 }
+
 #clear{
     float: right;
 }
+
 #lblname{
     margin-right: 10px;
 }
+
 #lblBirthDay{
     margin-right: 10px;
 }
+
 #gender{
     float: right;
 }
