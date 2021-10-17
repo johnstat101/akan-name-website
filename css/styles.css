@@ -1,6 +1,25 @@
-.akanName{
-    float: left;
+body{
+    background-color: darkgrey;
 }
+
+#col{
+    background-color: white;
+    padding: 10px;
+}
+
+h1{
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+#output{
+    background-color: darkgreen;
+    color: white;
+    font-style: italic;
+}
+
 #reset{
     float: right;
 }
