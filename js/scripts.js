@@ -3,14 +3,16 @@
 function akanName() {
     let dayOfWeek = calDayOfWeek();
     let akanNames = myArrayGen();
+    let userName = document.getElementById("userName").value;
     
     let addElement = document.createElement("p");
-    let node = document.createTextNode(akanNames[dayOfWeek]);
+    let node = document.createTextNode("Hello "+userName+" you were born on Day "+
+    dayOfWeek+" of the week, and your AKAN Name is: "+akanNames[dayOfWeek]);
     addElement.appendChild(node);
     
     const element = document.getElementById("output");
     element.appendChild(addElement);
-    console.log(akanNames[dayOfWeek]);
+    // console.log(akanNames[dayOfWeek]);
 }
 
 // A function to return Akan Names array based on user gender
