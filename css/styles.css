@@ -1,8 +1,8 @@
-body{
+body {
     background-color: darkgrey;
 }
 
-.about{
+.about {
     text-align: justify;
     background-color: blanchedalmond;
     font-style: italic;
@@ -10,49 +10,51 @@ body{
     border-top: 1px solid black;
 }
 
-#col{
+#col {
     background-color: white;
     padding: 10px;
     margin-top: 10px;
     border: solid;
 }
 
-h1{
+h1 {
     background-color: darkgreen;
     color: white;
     text-align: center;
     padding: 10px;
 }
 
-#output{
+#output {
     background-color: darkgreen;
     color: white;
     font-style: italic;
 }
 
-#userName{
+#userName {
     padding-left: 10px;
 }
 
-#clear{
+#clear {
     float: right;
 }
 
-#lblname{
+#lblname {
     margin-right: 10px;
 }
-#lblname::after{
+
+#lblname::after {
     content: " *";
     color: red;
 }
 
-#lblBirthDay{
+#lblBirthDay {
     margin-right: 10px;
 }
 
-#gender{
+#gender {
     float: right;
 }
-#birthDay{
+
+#birthDay {
     margin-right: 15px;
 }
