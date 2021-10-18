@@ -30,8 +30,8 @@ h1{
     font-style: italic;
 }
 
-#reset{
-    float: right;
+#userName{
+    padding-left: 10px;
 }
 
 #clear{
@@ -40,6 +40,10 @@ h1{
 
 #lblname{
     margin-right: 10px;
+}
+#lblname::after{
+    content: " *";
+    color: red;
 }
 
 #lblBirthDay{
