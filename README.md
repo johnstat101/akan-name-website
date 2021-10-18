@@ -1,14 +1,14 @@
 AKAN-NAME-WEBSITE
-By John Kimani
+By John Kimani (author)
 
 ## Description
 
 akan-name-website is a web application that takes a user's birthday and calculates the day of the week they were born and then depending on their gender outputs their Akan Name
 
 *website screenshot*
-[portfolio.jpg {https://i.postimg.cc/k5MmtCbh/portfolio.png}](https://postimg.cc/sML8ttKp)
+[portfolio.jpg {https://i.postimg.cc/bNQVW1tV/akan-name-website.png}](https://postimg.cc/ZC5LyBj6)
 
-## Technologies Use
+## Technologies Used
 
 1. HTML
 2. CSS
